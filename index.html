@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a1ea5ba01a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" src="https://KD158.github.io/DiceGame/styles.css">
+    <title>Learn DOM - Dice Game</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1 class="title">The Dice Game</h1>
+        <div class="row">
+            <div class="col-sm-6">Player 1</div>
+            <div class="col-sm-6">Player 2</div>
+        </div>
+        <div class="row" id="dices">
+            <div class="col-sm-6 die mt-3 mx-auto" id="die1">
+                <!-- dots layout and their position are based on a 3x3 grid starting with dot00 on the top left corner of the die-->
+                <div class="dotline0">
+                    <i class="fa-solid fa-circle dot dot0"></i>
+                    <i class="fa-solid fa-circle dot dot2"></i>
+                </div>
+                <div class="dotline1">
+                    <i class="fa-solid fa-circle dot dot0"></i>
+                    <i class="fa-solid fa-circle dot dot1"></i>
+                    <i class="fa-solid fa-circle dot dot2"></i>
+                </div>
+                <div class="dotline2">
+                    <i class="fa-solid fa-circle dot dot0"></i>
+                    <i class="fa-solid fa-circle dot dot2"></i>
+                </div>
+            </div>
+            <div class="col-sm-6 die mt-3 mx-auto" id="die2">
+                <div class="dotline0">
+                    <i class="fa-solid fa-circle dot dot0"></i>
+                    <i class="fa-solid fa-circle dot dot2"></i>
+                </div>
+                <div class="dotline1">
+                    <i class="fa-solid fa-circle dot dot0"></i>
+                    <i class="fa-solid fa-circle dot dot1"></i>
+                    <i class="fa-solid fa-circle dot dot2"></i>
+                </div>
+                <div class="dotline2">
+                    <i class="fa-solid fa-circle dot dot0"></i>
+                    <i class="fa-solid fa-circle dot dot2"></i>
+                </div>
+            </div>
+        </div>
+        <button class="btn" id="playButton">Roll</button>
+    </div>
+
+    <div class="copyright"><p>First web app project &copy;13rd October, 2022 by Deston Bui</p></div>
+
+<!-- scripts goes right before the body tag, so that our web content get loaded first before our js run. -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://KD158.github.io/DiceGame/index.js" charset="utf-8"></script>
+</body>
+
+
+
+</html>

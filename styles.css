@@ -1,0 +1,106 @@
+body {
+    background-color: #33343D;
+    color: #44C396;
+    padding: 0% 15%;
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 400;
+    font-size: 2rem;
+    height: 100vh;
+}
+
+.container-fluid {
+    text-align: center;
+    height: 90vh;
+}
+
+.title {
+    color: #44C396;
+    font-size: 8rem;
+    font-weight: 900;
+    text-shadow: 5px 10px rgb(43, 43, 43);
+    padding-top: 20px;
+    padding-bottom: 5%;
+}
+
+.die {
+    text-align: left;
+    background-color: #920410;
+    border-radius: 10%;
+    width: 18.7rem;
+    height: 18.7rem;
+}
+
+.dot {
+    font-size: 3rem;
+    color: #FBEFD4;
+    position: relative;
+}
+
+.dotline0 {
+    margin: 8% 5%;
+}
+.dotline1 {
+    margin: 8% 5%;
+    padding: 10% 0;
+}
+.dotline2 {
+    margin: 8% 5%;
+}
+
+.dotline0 .dot2, .dotline2 .dot2 {
+     margin-left: 59%;
+}
+
+.dotline1 .dot1 {
+    margin-left: 20%;
+    visibility: hidden;
+}
+
+.dotline1 .dot2 {
+    margin-left: 17.5%;
+}
+
+#playButton {
+    background-color: #44C396;
+    color: #FBEFD4;
+    text-shadow: 1px 1px #33343D;
+    font-size: 2rem;
+    margin-top: 5%;
+    padding: 0.3rem 5rem 0.5rem;
+    border-radius: 1rem;
+    transition: transform 0.3s;
+}
+
+#playButton:hover {
+    background-color: #FBEFD4;
+    color: #44C396;
+    border: 2px solid;
+    border-color: #44C396;
+    transform: scale(1.1);
+    transition: transform 0.3s;
+    animation-duration: 0.3s;
+}
+
+.flipped {
+    transform: scaleX(-1);
+}
+
+.icon-spacer-right {
+    padding-right: 10px;
+}
+.icon-spacer-left {
+    padding-left: 10px;
+}
+
+.flag {
+    color: red;
+}
+
+.copyright {
+    color: grey;
+    font-size: 1rem;
+    text-align: center;
+    height: 10vh;
+}
+
+
